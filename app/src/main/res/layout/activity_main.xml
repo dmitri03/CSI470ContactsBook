@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--Edit text to enter course name-->
+    <EditText
+        android:id="@+id/idEdtContactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Contact Name" />
+
+    <!--edit text to enter course duration-->
+    <EditText
+        android:id="@+id/idEdtContactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Contact Number" />
+
+    <!--edit text to display course tracks-->
+    <EditText
+        android:id="@+id/idEdtContactEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Contact Email" />
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/idEdtContactAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Contact Address" />
+    <EditText
+        android:id="@+id/idEdtContactCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Contact Company" />
+
+    <!--button for adding new course-->
+    <Button
+        android:id="@+id/idBtnAddContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Add Contact"
+        android:textAllCaps="false" />
+
+    <!--new button for opening our course list activity-->
+    <Button
+        android:id="@+id/idBtnReadContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Read All Contacts"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>
